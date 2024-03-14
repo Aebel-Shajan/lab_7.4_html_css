@@ -1,0 +1,21 @@
+header {
+    background-color:white;
+}
+
+#Career {
+    background-color:#EABDA8;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#Career>div {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#Career>div>h1 {
+    text-align: left;
+}
+
