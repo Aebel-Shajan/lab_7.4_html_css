@@ -1,6 +1,6 @@
 * {
     font-family: "Montserrat",sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     color: #242424;
 }
 
@@ -35,18 +35,35 @@ header {
     background-color: #f0f1f2;
     border-radius: 9px;
     padding-left: 10px;
-    
 }
 
 #bottom-nav {
     display: flex;
     justify-content: space-around;
-    width: 75%;
+    width: 50%;
     margin-bottom: 15px;
 }
 
-#bottom-nav > a {
+a {
     text-decoration: none;
+}
+
+#signup {
+    background-color: #f69044;
+    border-radius: 9px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#right-nav {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
 }
 
 /* Career section */
@@ -55,13 +72,13 @@ header {
     display:flex;
     justify-content: center;
     padding: 200px;
-    height: 100vh;
+    height: 43vh;
+    border-bottom-right-radius: 55px;
 }
 
 #career-text {
     width: 500px;
     text-align: left;
-
 }
 
 #career-text > h1 {
@@ -81,4 +98,18 @@ header {
 
 #career-img > img {
     width: 500px
+}
+
+
+/* Footer */
+.bn-footer__nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 60px;
+}
+
+.bn-footer__nav > div {
+    display: flex;
+    flex-direction: column;
 }
