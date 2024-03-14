@@ -1,6 +1,13 @@
 * {
     font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    color: #242424;
 }
+
+body {
+    margin: 0;
+}
+
 /* Nav bar  */
 header {
     background-color:white;
@@ -22,17 +29,25 @@ header {
 }
 
 .searchbar {
-    height: 20px;
+    height: 35px;
     width: 400px;
+    border: none;
+    background-color: #f0f1f2;
+    border-radius: 9px;
+    padding-left: 10px;
+    
 }
 
 #bottom-nav {
     display: flex;
     justify-content: space-around;
     width: 75%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+#bottom-nav > a {
+    text-decoration: none;
+}
 
 /* Career section */
 #Career {
@@ -53,3 +68,17 @@ header {
     font-size: 50px;
 }
 
+#career-text > button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 9px;
+    border: none;
+    background-color: #f69044;
+    margin: 7px
+}
+
+#career-img > img {
+    width: 500px
+}
